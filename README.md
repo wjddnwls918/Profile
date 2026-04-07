@@ -38,8 +38,16 @@
     * 신한pLay, 서울페이플러스, 신한카드 앱등의 개발과 앱 배포를 진행했습니다. 또한 기타앱(마이카, 프리미엄 쿠폰 등)의 앱배포를 진행했습니다. 그리고 Vue.js, Devon으로 CBDC(Central Bank Digital Currency) 프로젝트를 성공적으로 개발한 경험이 있습니다.
 
 * **2023년~**
-    * 당사 안드로이드 앱 관련 업무진행. 신한SOL페이, 마이카, 마이샵 업무 진행. Clean Architecture + mvvm으로 신한 SOL페이 마이탭(메인화면) 개발을 진행(전반적인 Compose ui 공통화 설계 및 개발, 슈퍼SOL모듈, 페이모듈, 카드홈모듈, 푸터 등 개발)하였으며 레거시 코드 리팩토링을 지속적으로 진행하고 있습니다. gitlab을 통해 ci/cd를 구축하여 개발 및 운영업무 진행. Coroutine 및 Flow 사용하여 개발 진행. Jetpack hilt, lifecycle, viewmodel 등의 다양한 라이브러리 활용가능합니다.
-
+    1.  신한SOL페이 홈화면 개편 프로젝트 
+     - Clean Architecture + MVVM 구조로 신한SOL페이 메인화면 개발 진행
+     - Compose를 당사 최초로 도입하여 홈화면 모듈 UI 공통화 진행
+     - 슈퍼SOL모듈, 페이모듈, 카드홈모듈, 푸터 등 개발
+     - Gitlab CI/CD 구성하여 개발 진행
+  
+    2.  신한SOL페이 온라인 결제 개편
+     - 레거시 온라인결제 기능 Clean Architecture + MVVM으로 전환 개발
+     - 모바일 온라인, 해외 온라인, O2O온라인 개발
+     - XML to Compose로 전환
 
 ### **한국과학기술원(KAIST)** | 위촉연구원
 *기간 : 2020.01 ~ 2020.10*
