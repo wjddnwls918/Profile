@@ -42,6 +42,7 @@
      - Clean Architecture + MVVM 구조로 신한SOL페이 메인화면 개발 진행
      - Compose를 당사 최초로 도입하여 홈화면 모듈 UI 공통화 진행
      - 슈퍼SOL모듈, 페이모듈, 카드홈모듈, 푸터 등 개발
+     - UseCase 테스트코드 작성
      - Gitlab CI/CD 구성하여 개발 진행
   
     2.  신한SOL페이 온라인 결제 개편
