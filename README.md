@@ -53,9 +53,12 @@
 ## 🚀 주요 프로젝트
 
 ### **EatTogether (E.T.) - 혼밥족 매칭 서비스**
-* **기간:** 2019.01.21 ~ 2019.02.22 (팀 프로젝트 - 3명)
+*기간 : 2019.01.21 ~ 2019.02.22 (팀 프로젝트 - 3명)*
 * **기술:** Android(Java), MVVM, RxJava, Retrofit, Node.js, MySQL
-* **내용:** 혼자 식사하는 사람들을 위한 실시간 위치 기반 매칭 앱 개발
+- 혼자 식사하는 사람들을 위한 실시간 위치 기반 매칭 앱 개발
+- 게시글 작성 및 등록, 키워드로 장소검색(카카오API 사용)
+- 댓글 작성 시 게시글 참여 사람들에게 메시지 전송
+- 깃허브 주소 : https://github.com/boostcampth/boostcamp3_D, https://github.com/wjddnwls918/RESTAPI_Boostcamp
 
 ---
 
