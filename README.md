@@ -62,7 +62,7 @@
         - Robolectric, Roborazzi활용한 스크린샷 테스트 환경 구성
   
       2) CI/CD에 테스트 Job 추가
-        - fastlane의 Kover실행 환경 구성 (build.gradle 등 예시 코드 필요)
+        - fastlane의 Kover실행 환경 구성
            - yml에 job추가. Fastlane task 구성. test.sh에서 실행
   
       3) Kover를 활용한 테스트 커버리지 도출 환경 구성
