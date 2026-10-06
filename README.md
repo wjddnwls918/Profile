@@ -63,11 +63,11 @@
         - 단위테스트 코드 작성을 위하여 UseCase및 ViewModel 단위테스트에 대한 SKILL.md를 작성
            - .proxai/skills 경로에 ViewModel, UseCase 단위테스트에 대한 SKILL들 작성
            - 언제 이 스킬이 동작하는지, 원칙은 어떻게 되는지, 작업 순서는 어떤순서로 진행하는지, 코드 작성 예시 등 포함
-        - Robolectric, Roborazzi활용한 스크린샷 테스트 환경 구성
   
       2) CI/CD에 테스트 Job 추가
         - fastlane의 Kover실행 환경 구성
            - yml에 job추가. Fastlane task 구성. test.sh에서 실행
+        - Robolectric, Roborazzi활용한 스크린샷 테스트 환경 구성
   
       3) Kover를 활용한 테스트 커버리지 도출 환경 구성
         - 단위테스트 커버리지는 usecase, viewmodel로 제한
