@@ -50,6 +50,26 @@
      - 모바일 온라인, 해외 온라인, O2O온라인 개발
      - XML to Compose로 전환
 
+    3.  사내 AI를 활용한 테스트코드 작성 및 CICD 환경 구성
+       
+      1) 사내 AI 활용한 테스트 코드 작성 환경 구성
+        - Android Studio의 PROXYAI를 활용한 구성
+        - PROXYAI.md를 설정하여 신한SOL페이의 아키텍처 및 구현방식을 정의
+           - 언어, 네이밍 컨벤션, 레이어 구조, 의존성 방향, 모듈 구성, 기술 스택 등
+        - 단위테스트 코드 작성을 위하여 UseCase및 ViewModel 단위테스트에 대한 SKILL.md를 작성
+           - .proxai/skills 경로에 ViewModel, UseCase 단위테스트에 대한 SKILL들 작성
+           - 언제 이 스킬이 동작하는지, 원칙은 어떻게 되는지, 작업 순서는 어떤순서로 진행하는지, 코드 작성 예시 등 포함
+        - Robolectric, Roborazzi활용한 스크린샷 테스트 환경 구성
+  
+      2) CI/CD에 테스트 Job 추가
+        - fastlane의 Kover실행 환경 구성 (build.gradle 등 예시 코드 필요)
+           - yml에 job추가. Fastlane task 구성. test.sh에서 실행
+  
+      3) Kover를 활용한 테스트 커버리지 도출 환경 구성
+        - 단위테스트 커버리지는 usecase, viewmodel로 제한
+        - 스크린샷테스트는 커버리지에서 제외
+
+
 ### **한국과학기술원(KAIST)** | 위촉연구원
 *기간 : 2020.01 ~ 2020.10*
 
